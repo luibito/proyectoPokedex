@@ -11,10 +11,10 @@
 .card-img-top {
     width: 100px;
     height: 100px;
-    display: block;        /* Hace que la imagen sea un bloque para centrarla */
+    display: block;       
     margin: 0 auto;
     text-align: center;
-    object-fit: cover;       
+    object-fit: cover;     
     
 }
 
