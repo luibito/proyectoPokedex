@@ -14,7 +14,7 @@
     display: block;        /* Hace que la imagen sea un bloque para centrarla */
     margin: 0 auto;
     text-align: center;
-    object-fit: cover;     
+    object-fit: cover;       
     
 }
 

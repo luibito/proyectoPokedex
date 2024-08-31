@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
             pokemons = await Promise.all(data.results.map(async (pokemon) => {
                 const pokemonDetails = await fetch(pokemon.url).then(res => res.json());
                 return pokemonDetails;
-            }));
+            })); 
             displayPokemons(pokemons);
         } catch (error) {
             console.error('Error fetching Pokémon data:', error);
